@@ -112,6 +112,13 @@
   \def\@field{Ingénierie}
 }
 
+\DeclareOption{rocm}{
+  \def\@orientation{Robotique et Conception Microtechnique}
+  \def\@department{TIN}
+  \def\@faculty{Microtechniques}
+  \def\@field{Ingénierie}
+}
+
 \DeclareOption{gen}{
   \def\@orientation{Génie de l'environnement}
   \def\@department{EC+G}
